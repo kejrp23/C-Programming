@@ -13,8 +13,8 @@ struct employee{
 
 int main(){
 		struct employee p1;
-		sprintf(p1.first , "Jason");
-		sprintf(p1.last,"Pittman");
+		sprintf(p1.first , "First");
+		sprintf(p1.last,"Last");
 		p1.age = 29;
 
 		FILE* fptr = fopen("sample.txt","w");
