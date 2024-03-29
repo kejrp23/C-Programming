@@ -31,7 +31,6 @@ void readfile(char* x){
 
 
 int main(){
-<<<<<<< HEAD
 		struct employee p1;
 		sprintf(p1.first , "First");
 		sprintf(p1.last,"Last");
@@ -44,7 +43,7 @@ int main(){
 		
 		
 		fclose(fptr);
-=======
+
 		
 		char name[20];
 		scanf("Please Enter A File Name: \n%s",&name);
@@ -53,7 +52,6 @@ int main(){
 
 
 
->>>>>>> f593201 (updated)
 
 		return 0;
 };
